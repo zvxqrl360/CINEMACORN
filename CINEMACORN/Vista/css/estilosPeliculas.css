@@ -1,0 +1,433 @@
+
+
+/* HEADER */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #E1E1E1;
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background: #780F0F;
+    align-items: center;
+    flex-direction: column;
+}
+
+.anchoHeader{
+    display: flex;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 150px;
+    float: left;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+}
+
+header h1{
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+    padding-left: 15px;
+    align-items: center;
+}
+
+.imgPerfil{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    float: right;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+}
+
+#navPerfil{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    float: right;
+    text-align: right;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+}
+
+.logoPrincipal{
+    margin: 0px;
+    height: 120px;
+    width: 160px;  
+}
+
+.fotoPerfilPred{
+    display: flex;
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+}
+
+nav ul li{
+    display: flex; /* Muestra la lista como una fila horizontal */
+    list-style-type: none; /* Elimina los puntos/asteriscos */
+    padding: 10px; /* Elimina el relleno predeterminado de la lista */
+    float: left;
+}
+
+nav ul li a{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: quic;
+}
+
+nav ul li a:hover{
+    color: #21618C;
+}
+
+/* ------ */
+
+.panelNav{
+    background: #B94646;
+    padding: auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    float: left;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+    border: solid #780F0F 5px;
+}
+
+#listaPanelNav ul{
+    list-style-type: none;
+    padding: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centramos horizontalmente los elementos */
+}
+
+#listaPanelNav ul li {
+    margin: 0;
+    padding: auto;
+}
+
+#listaPanelNav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: quic;
+    padding: 50px; 
+    padding-left: 60px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+
+#listaPanelNav ul li a:hover{
+    color: #21618C;
+}
+
+.search{
+    background: #B94646;
+    padding: auto;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    float: left;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+    border: solid #780F0F 5px;
+}
+
+.txtaSearch{
+    width: 80%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.buscar{
+    align-items: center;
+    box-sizing: border-box;
+    height: 30px;
+    width: 280px;
+}
+
+.btnSearch{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.btnBuscar{
+    align-items: center;
+    box-sizing: border-box;
+    height: 30px;
+    width: 60px;
+}
+
+/* Estilo para los artículos */
+section#contenido {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+article img {
+    max-width: 100%;
+    height: 380px;
+    width: 278px;
+}
+
+article p {
+    font-weight: bold;
+}
+
+ button {
+    background-color: #FADBD8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    width: 100%;
+    background: #780F0F;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+}
+
+.anchoFooter{
+    width: 80%;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panelSocialMedia{
+    padding: auto;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    float: left;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.twitter, .facebook, .instagram {
+    text-align: center;
+    width: 100%;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+}
+
+.iconoTwitter, .iconoFacebook, .iconoInstagram {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.panelAtenCliente{
+    padding: auto;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    float: left;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.panelAtenCliente a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 9px;
+}
+
+.panelAtenCliente a:hover{
+    color: #21618C;
+}
+
+.panelContactanos{
+    padding: auto;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    float: left;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.panelContactanos a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 9px;
+}
+
+.panelContactanos a:hover{
+    color: #21618C;
+}
+
+.panelFooterOtros{
+    padding: auto;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+}
+
+.panelOtrosServicios{
+    padding: auto;
+    width: 50%;
+    display: flex;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.panelOtrosServicios a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 9px;
+}
+
+.panelOtrosServicios a:hover{
+    color: #21618C;
+}
+
+.panelDescargaApp{
+    padding: auto;
+    width: 50%;
+    display: flex;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.panelDescargaApp a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 9px;
+}
+
+.iconoAppStore, .iconoPlayStore {
+    align-items: center;
+    text-align: center;
+}
+
+.panelLibroReclam{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 9px;
+}
+
+.libroReclam{
+    text-align: center;
+    height: 75px;
+} 
+
+.panelLibroReclam a{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    flex-direction: row;
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+    padding: auto;
+    justify-content: center;
+}
+
+.panelLibroReclam a:hover{
+    color: #21618C;
+}
+
+.anchoFooter h2{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.anchoFooter h3{
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+}
