@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+}
+
+.cinema-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #D21616;
+    color: #fff;
+}
+
+.total {
+    font-weight: bold;
+}
+
